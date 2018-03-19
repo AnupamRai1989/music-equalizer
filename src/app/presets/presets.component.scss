@@ -1,0 +1,40 @@
+@import '../../variables'; 
+
+.presets {
+    &.show > .btn-primary.dropdown-toggle {
+        background: $danube;
+    }
+    .presets-button {
+        background: $danube;
+        border: 2px solid $ship-cove;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 18px;
+        min-width: 9em;
+        &:active {    
+            background: $danube;
+            box-shadow: none;
+        }
+        &:after {
+            display: none;
+        }
+    }
+    .presets-dropdown {
+        border: 2px solid $ship-cove;
+        border-radius: 0;
+        font-size: 18px;
+        min-width: 9em;
+        &.active {
+            background: $danube;    
+        }
+        .presets-dropdown-item {
+            text-align: center;
+        }
+        top: -2px !important;
+    }
+}
+
+.selected {
+    background: $danube;
+    color: $white;
+}

@@ -1,0 +1,12 @@
+<section class="btn-group presets">
+  <button type="button" class="btn btn-primary dropdown-toggle presets-button" id="presetMenuButton" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">
+  Preset
+  </button>
+  <article class="dropdown-menu presets-dropdown" aria-labelledby="presetMenuButton">
+    <a class="dropdown-item presets-dropdown-item" href="javascript:void(0)" *ngFor="let preset of presets" [ngClass]="{'selected': selectedPreset === preset }"
+      (click)="presetSelected(preset)">
+      {{ preset.type }}
+    </a>
+  </article>
+</section>

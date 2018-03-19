@@ -1,0 +1,44 @@
+{
+    "presets": [
+        {
+            "type": "Rock",
+            "setting": {
+                "sixtyHz": -6,
+                "threeHundredTenHz": 0,
+                "oneThousandHz": 2,
+                "sixThousandHz": -4,
+                "sixteenThousandHz": -3
+            }
+        },
+        {
+            "type": "Pop",
+            "setting": {
+                "sixtyHz": 0,
+                "threeHundredTenHz": -4,
+                "oneThousandHz": -4,
+                "sixThousandHz": -2,
+                "sixteenThousandHz": 2
+            }
+        },
+        {
+            "type": "Jazz",
+            "setting": {
+                "sixtyHz": 6,
+                "threeHundredTenHz": 0,
+                "oneThousandHz": -2,
+                "sixThousandHz": -4,
+                "sixteenThousandHz": 2
+            }
+        },
+        {
+            "type": "Classical",
+            "setting": {
+                "sixtyHz": 4,
+                "threeHundredTenHz": 0,
+                "oneThousandHz": -2,
+                "sixThousandHz": 4,
+                "sixteenThousandHz": -2
+            }
+        }
+    ]
+}

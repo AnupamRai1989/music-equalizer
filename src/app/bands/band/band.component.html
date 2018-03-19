@@ -1,0 +1,5 @@
+<div class="band-bar" appBandBar [barHeight]="barHeight">
+</div>
+<div class="band-circle" appBandCircle [bandValue]="bandValue" [barHeight]="barHeight" [circleHeight]="50" (onBandValueChange)="onBandValueChange($event)">
+</div>
+<p class="band-type">{{band.type | formatNumber }}</p>

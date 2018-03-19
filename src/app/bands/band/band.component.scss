@@ -1,0 +1,25 @@
+@import '../../../variables'; 
+
+.band-bar {
+    height: 300px;
+    width: 25px;
+    background: $banana-mania;
+    border: 1px solid $wild-blue-yonder;
+    margin: auto;
+}
+
+.band-circle {
+    background: $silver;
+    border: 1px solid $wild-blue-yonder;
+    border-radius: 100%; 
+    cursor: pointer;
+    position: absolute;
+    left: 27%;
+}
+
+.band-type {
+    font-size: 28px;
+    position: relative;
+    top: 30px;
+    left: 16px;
+}

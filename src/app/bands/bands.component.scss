@@ -1,0 +1,18 @@
+.scale {
+    text-align: right;
+    p {
+        font-size: 28px;
+        margin: 0;
+        position: relative;
+        right: -15px;
+        &:first-child {
+            top: -22px;
+        }
+        &:nth-child(2) {
+            top: 90px;
+        }
+        &:last-child {
+            bottom: -190px;
+        }
+    }
+}

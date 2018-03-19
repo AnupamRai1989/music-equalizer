@@ -1,0 +1,7 @@
+<section class="col-md-2 scale">
+    <p *ngFor="let limit of limits">
+        {{ limit + 'db' }}
+    </p>
+</section>
+<app-band *ngFor="let band of bands" class="col-md-2" [band]="band" [limits]="limits" [barHeight]="barHeight">
+</app-band>

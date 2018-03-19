@@ -1,0 +1,29 @@
+{
+    "bands": [
+        {
+            "id": "sixtyHz",
+            "type": 60,
+            "unit": "Hz"
+        },
+        {
+            "id": "threeHundredTenHz",
+            "type": 310,
+            "unit": "Hz"
+        },
+        {
+            "id": "oneThousandHz",
+            "type": 1000,
+            "unit": "Hz"
+        },
+        {
+            "id": "sixThousandHz",
+            "type": 6000,
+            "unit": "Hz"
+        },
+        {
+            "id": "sixteenThousandHz",
+            "type": 16000,
+            "unit": "Hz"
+        }
+    ]
+}
